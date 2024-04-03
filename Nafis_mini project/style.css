@@ -31,6 +31,68 @@ h3,
 h5 {
   color: #ff8a00;
 }
+
+/* Home */
+#home {
+  min-height: 80vh;
+  padding: 50px 0;
+  margin-top: 50px;
+  width: 100%;
+  background-color: #F9E3CA;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#home .home-content {
+  width: 90%;
+  padding: 0 20px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+#home .text-one {
+  font-size: 40px;
+  color: #FF8911;
+}
+#home .text-two {
+  color: #FF8911;
+  font-size: 70px;
+  font-weight: 600;
+  margin-left: -3px;
+  font-weight: bold;
+}
+#home .text-three {
+  font-size: 20px;
+  margin: 5px 0;
+  padding-right: 100px;
+  color: #FF8911;
+}
+#home .button {
+  margin: 14px 0;
+  padding-bottom: 20px;
+}
+#home .button button {
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  background: transparent;
+  color: #FF8911;
+  cursor: pointer;
+  border: 3px solid #FF8911; 
+  transition: all 0.4s ease;
+  text-align: left;
+}
+#home .button button:hover {
+  background-color: #FF8911;
+  color: #fff;
+}
+/* End Home */
+
 /*About-us*/
 #about-us {
   padding-top: 40px;
@@ -72,3 +134,42 @@ h5 {
   text-align: center;
 }
 /* end search section*/
+
+/* Footer */
+#footer .footer-information {
+  padding: 50px;
+}
+
+#footer .footer-hakcipta {
+  background-color: black;
+  color: white;
+  height: 40px;
+  padding: 5px 0;
+  width: 100%;
+}
+
+#footer .footer-information .table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.table th,
+.table td {
+  padding: 8px 10px;
+  border: none;
+  text-align: left;
+  font-size: 13px;
+  font-weight: normal;
+  color: white;
+  background-color: #FF8911;
+}
+
+.table th {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+/* End Footer */
+
+
